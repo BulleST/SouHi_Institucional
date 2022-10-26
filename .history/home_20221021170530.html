@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SouHi - Soluções Automatizadas</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container bg-on">
+      <div class="header-position">
+      <div class="flex-item-image">
+        <img src="img/logo_claro.png" alt="Logo Souhi">
+      </div>
+      <div class="flex-item-rotas">
+        <nav class="rotas">
+          <ul>
+           <li> <a class="header__navigation-link" href="#home">Home</a></li>
+            <li><a class="header__navigation-link" href="#quem-somos">Quem somos</a></li>
+            <li><a class="header__navigation-link" href="#produtos">Ofertas</a></li>
+            <li><a class="header__navigation-link" href="#duvidas">FAQ</a></li>
+            <li><a class="header__navigation-link" href="#contatos">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex-item-contato">
+        <a href="">Fale conosco!</a>
+      </div>
+    </div>
+    </div>
+    </header>
+
+ 
+  <section>
+    <section class="carrossel">
+      <div class="slider">
+        <div class="slider__item"> <img src="img/pexels-liza-summer-6347719.jpg" alt="aaa"></div>
+        <div class="slider__item"><img src="img/iot-3337536.png" alt=""></div>
+        <div class="slider__item"><img src="img/teste.jpg" alt=""></div>
+      </div>
+    </section>
+    <!-- <div class="carrossel">
+      <div class="slides">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <div class="slide s1">
+          <img src="img/pexels-liza-summer-6347719.jpg" alt="aaa">
+        </div>
+        <div class="slide s2">
+          <img src="img/iot-3337536.png" alt="">
+        </div>
+        <div class="slide s3">
+          <img src="img/teste.jpg" alt="">
+        </div>
+      </div>
+      <div class="navegacao">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+    </div> -->
+    
+    <div class="bg">
+      <div class="container position">
+        <div class="quem-somos" id="quem-somos">
+          <img src="img/teste.jpg" alt="" class="imagem" data-aos="fade-right">
+          <div class="texto" data-aos="fade-left">
+
+            <h1>Quem somos</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, obcaecati alias magni reiciendis non ipsa
+              asperiores deserunt quibusdam quasi ut odit, quaerat ex eum fugit pariatur rerum eius vitae maiores?</p>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i><span>Endereço:</span> Av. Paulista São Paulo </li>
+              <li><i class='fa fa-whatsapp'></i><span> WhatsApp:</span> xxxxx-xxxxx</li>
+              <li><i class="fa-solid fa-phone"></i><span> Telefone:</span> (xx) xxxxxx</li>
+            </ul>
+
+            <button class="btn">Saiba mais <span> <i class="fa-solid fa-angles-right"></i></span></button>
+          </div>
+        </div>
+        <div class="beneficios">
+          <div class="card card-1" data-aos="fade-up">
+            <div class="card-texto">
+              <span> <i class="fa-solid fa-dollar-sign icone-card"></i></span>
+              <h1>Economia</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat repellat magni est praesentium
+                quaerat aspernatur incidunt sint, quisquam voluptates aut fugiat vel dolorum maxime alias autem, sunt
+                quae amet!</p>
+            </div>
+          </div>
+          <div class="card card-2" data-aos="fade-up">
+            <div class="card-texto">
+              <span> <i class="fa-solid fa-shield icone-card"></i></span>
+              <h1>Segurança</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat repellat magni est praesentium
+                quaerat aspernatur incidunt sint, quisquam voluptates aut fugiat vel dolorum maxime alias autem, sunt
+                quae amet!</p>
+            </div>
+          </div>
+          <div class="card card-3" data-aos="fade-up">
+            <div class="card-texto">
+              <span> <i class="fa-solid fa-check icone-card"></i></span>
+              <h1>Conveniência</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat repellat magni est praesentium
+                quaerat aspernatur incidunt sint, quisquam voluptates aut fugiat vel dolorum maxime alias autem, sunt
+                quae amet!</p>
+            </div>
+          </div>
+          <div class="card card-4" data-aos="fade-up">
+            <div class="card-texto">
+              <span> <i class="fa-solid fa-couch icone-card"></i></span>
+              <h1>Conforto</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat repellat magni est praesentium
+                quaerat aspernatur incidunt sint, quisquam voluptates aut fugiat vel dolorum maxime alias autem, sunt
+                quae amet!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="produtos-fechado" id="produtos">
+        <div class="produtos-texto">
+          <h1>O que você quer automatizar?</h1>
+        
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odit eveniet molestiae reiciendis ab
+            odio ipsum labore! Culpa optio consectetur, laboriosam quia enim vitae consequuntur tempora id in quos
+            ipsum!</p>
+          
+
+          <span class="pra"><i class="fa-solid fa-angles-down down" id="show-or-hide"></i></span>
+        </div>
+      
+      </div>
+      <div class="produtos-aberto">
+        <div class=" sessao swiper mySwiper container">
+          <div class="swiper-wrapper content">
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="https://source.unsplash.com/random/250x250" alt="" class="eseu">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="https://source.unsplash.com/random/250x250" alt="" class="eseu">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+
+              <div class="card-content">
+
+                <div class="image">
+                  <img src="https://source.unsplash.com/random/250x250" alt="" class="eseu">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide card">
+              <div class="card-content">
+
+
+                <div class="image">
+
+                  <img src="https://source.unsplash.com/random/250x250" alt="" class="eseu">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-paggination"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="position">
+      <div class="duvidas" id="duvidas">
+        <h1>Dúvidas frequentes</h1>
+        <div class="duvida-card">
+          <div class="grupo1">
+            <div class="duvida s1 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>O que é automação residencial?</h2>
+              </span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+            </div>
+            <div class="duvida s2 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>É muito complicado de mexer?</h2>
+              </span>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+            </div>
+            <div class="duvida s3 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>A tecnologia pode falhar de repente?</h2>
+              </span>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+            </div>
+          </div>
+          <div class="grupo2">
+
+
+            <div class="duvida s4 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>A tecnologia ficará obsoleta ou ultrapassada rapidamente?</h2>
+              </span>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+
+
+            </div>
+            <div class="duvida s5 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>Automação residencial exige infraestrutura?</h2>
+              </span>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+            </div>
+            <div class="duvida s6 " data-aos="fade-up">
+              <span>
+                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
+                <h2>Ter um sistema de automação residencial é caro demais?</h2>
+              </span>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
+                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
+                soluta esse dicta.</p>
+            </div>
+          </div>
+        </div>
+        <div class="duvidas-link">
+          <p>Ainda está com alguma dúvida? Entre em contato com o atendimento via WhatsApp!</p>
+          <a href="">Atendimento via WhatsApp <i class='fa fa-whatsapp'></i></a>
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+ <div class="link-top link-on" ><a href="">oi</a></div>
+  </section>
+
+  <section class="footer">
+   
+    </div>
+    <div class="footer-position">
+      <div class="finalizacao">
+        <img src="img/pexels-liza-summer-6347719.jpg" alt="" class="footer-img">
+        <div class="texto">
+          <h1>Aut</h1>
+          <h2>Automação residencial</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iure nemo, aliquam, quibusdam reiciendis
+            ducimus eum provident in id repellendus excepturi cum. Tempora dolorum, consequatur laudantium possimus hic
+            modi ratione.</p>
+        </div>
+      </div>
+      <div class="contato">
+        <div class="contato-texto">
+          <h2>Fale conosco</h2>
+
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Av. Paulista São Paulo </li>
+            <li><i class='fa fa-whatsapp'></i> xxxxx-xxxxx</li>
+            <li><i class="fa-solid fa-phone"></i> (xx) xxxxxx</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+
+
+<script>
+
+
+// var swiper = new Swiper(" .mySwiper", {
+//   slidePerView:3,
+//   spaceBetween:30,
+//   slidePerGroup:3,
+//   loop:true,
+//   loopFillGroupWithBlank:true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable:true
+//   },
+//   navigation:{
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev"
+//   }
+// })
+
+
+</script>
+
+</html>
