@@ -9,6 +9,7 @@
 
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
     crossorigin="anonymous"></script>
+   
 
 
   <!-- Bootstrap -->
@@ -26,19 +27,28 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Slick Carousel -->
+ 
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
 
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<!-- Jquery Ui -->
+<link type="text/css" href="./jquery-ui-1.13.2.custom/jquery-ui.css">
+<link type="text/css" href="./jquery-ui-1.13.2.custom/jquery-ui.structure.css">
+<link type="text/css" href="./jquery-ui-1.13.2.custom/jquery-ui.theme.css">
+<script src="./jquery-ui-1.13.2.custom/jquery-ui.js" text="text/javascript"></script>
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="script.js" defer ></script>
 
 </head>
 
-<body>
+<body class="bg">
+ 
   <header>
     <div class="header-container bg-on" id="header">
       <div class="header-position">
@@ -127,7 +137,7 @@
       </div>
     </section>
 
-    <div class="bg">
+   
       <div class="container wrapper">
         <section class="quem-somos" id="quem-somos">
           <img src="img/teste.jpg" alt="" class="imagem" data-aos="fade-right">
@@ -140,6 +150,7 @@
             <button class="btn">Saiba mais <span> <i class="fa-solid fa-angles-right"></i></span></button>
           </div>
         </section>
+        <div class="beneficios-bg">
         <div class="beneficios">
           <div class="card card-1" data-aos="fade-up">
             <div class="card-texto">
@@ -179,20 +190,36 @@
           </div>
         </div>
       </div>
+      </div>
 
 
-      <div class="produtos-fechado" id="produtos">
+      <!-- <div class="produtos-fechado" id="produtos">
         <div class="produtos-texto">
           <h1>O que você quer automatizar?</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo odit eveniet molestiae reiciendis ab
             odio ipsum labore! Culpa optio consectetur, laboriosam quia enim vitae consequuntur tempora id in quos
             ipsum!</p>
 
-          <span class="pra"><i class="fa-solid fa-angle-down down" id="show-or-hide"></i></span>
+          <span><i class=" fa-solid fa-angle-down down " id="show-or-hide"></i></span>
         </div>
 
+      </div> -->
+      <div class="produto-sep">
+        <div class="sep-img">
+         
+          <div class="sep-slider">
+          <div class="1"><img src="img/figura.png" alt=""></div>
+          <div class="2"><img src="img/Design sem nome (1).png" alt=""></div>
+          <div class="3"><img src="img/figura.png" alt=""></div>
+         
+        </div>
+        
+        </div>
+        <div class="sep-texto">
+      
+        </div>
       </div>
-      <div class="produtos-aberto">
+      <!-- <div class="produtos-aberto">
         <div class=" sessao  mySwiper container">
           <div class="swiper-wrapper content">
 
@@ -241,127 +268,55 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-paggination"></div>
       </div>
+    -->
+
+
+
+
+
+    <div class="duvidas-container">
+      <div class="wrapper">
+    
+        <div id="panels" data-aos="fade-up">
+          <li >
+            <div class="pergunta">
+              <h3 class="testedoflex">O que é automação residencial?</h3>
+              <i class="icone-pergunta testedoflex fas fa-chevron-down"> </i>
+            </div>
+            <p>A automação residencial consiste em conexões e integrações entre sistemas inteligentes para permitir que as
+              atividades sejam realizadas de forma automática. Geralmente apresenta o uso de sensores em objetos comuns ao
+              redor da casa para melhorar a conectividade e o monitoramento. Os principais benefícios são o aumento do
+              conforto, bem-estar, praticidade e segurança.</p>
+          </li>
+          <li  >
+            <div class="pergunta">
+              <h3>A tecnologia se tornará obsoleta em breve?</h3>
+              <i class="icone-pergunta fas fa-chevron-down "> </i>
+            </div>
+            <p> Essa é uma boa pergunta, afinal no mundo da tecnologia há sempre o medo de que novos produtos cheguem a
+              qualquer momento e tornem os seus - não tão velhos assim - completamente obsoletos.
+              Felizmente, a automação residencial não é o mesmo que substituir seu telefone - você não precisa "comprar um
+              novo sistema" a cada dois anos.</p>
+          </li>
+          <li >
+            <div class="pergunta">
+              <h3>A modificação é muito complicada? </h3>
+              <i class="icone-pergunta fas fa-chevron-down"> </i>
+            </div>
+            <p>Na verdade, este sistema é muito fácil de operar. Usá-los pode ser mais fácil do que lembrar qual dos seis
+              interruptores acende a luz que você deseja.</p>
+          </li>
+          <li >
+            <div class="pergunta">
+              <h3>A tecnologia falhará de repente? </h3>
+              <i class="icone-pergunta fas fa-chevron-down"> </i>
+            </div>
+            <p>Não vai. Alguns dispositivos inteligentes que são fáceis de encontrar no mercado a baixo custo podem não ser
+              muito confiáveis, mas os sistemas de automação profissional são tecnologias maduras e poderosas.</p>
+          </li>
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-    <div class="wrapper"> 
-      <div class="duvida-teste">
-        <h1>lorem</h1>
-        <button id="oi">oi</button>
-        <div class="duvidas-fechadas">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum expedita nesciunt quam soluta adipisci doloribus enim nobis nisi blanditiis placeat reprehenderit quae quidem, asperiores odio, odit rem modi corporis.</p>
-        </div>
-      </div>
-      <div class="duvida-teste">
-        <h1>lorem</h1>
-        <button id="oi">oi</button>
-        <div class="duvidas-fechadas">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum expedita nesciunt quam soluta adipisci doloribus enim nobis nisi blanditiis placeat reprehenderit quae quidem, asperiores odio, odit rem modi corporis.</p>
-        </div>
-      </div>
-   
- 
-<!-- 
-<div class="duvida-teste">
-  <div class="duvida-fechada">
-<h1>lorem?</h1>
-<button id="mostrar">oi</button>
-
-<div class="duvida-aberta">
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et qui quibusdam tenetur. Minima illum consequuntur illo.
-Magnam sapiente, minima quis, delectus beatae qui, deleniti quos voluptas dolore minus laudantium iure.</p>
-</div>
-</div>
-</div> -->
-
-      <!-- <div class="duvidas">
-        <h1>Dúvidas frequentes</h1>
-        <div class="duvida-card">
-
-          <div class="grupo1">
-             <div class="duvida s1 " data-aos="fade-up">
-              <div class="duvida-fechada">
-              <button class="pra"><i class="fa-solid fa-angle-down down" id="show-or-hide"></i></button>
-            </div>
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>O que é automação residencial?</h2>
-              </span>
-              <div class="duvida-aberta">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                  molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                  soluta esse dicta.</p>
-              </div>
-          </div>
-         
-            <div class="duvida s2 " data-aos="fade-up">
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>É muito complicado de mexer?</h2>
-              </span>
-
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                soluta esse dicta.</p>
-            </div>
-            <div class="duvida s3 " data-aos="fade-up">
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>A tecnologia pode falhar de repente?</h2>
-              </span>
-
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                soluta esse dicta.</p>
-            </div>
-          </div>
-          <div class="grupo2">
-
-
-            <div class="duvida s4 " data-aos="fade-up">
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>A tecnologia ficará obsoleta ou ultrapassada rapidamente?</h2>
-              </span>
-
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                soluta esse dicta.</p>
-
-
-            </div>
-            <div class="duvida s5 " data-aos="fade-up">
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>Automação residencial exige infraestrutura?</h2>
-              </span>
-
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                soluta esse dicta.</p>
-            </div>
-            <div class="duvida s6 " data-aos="fade-up">
-              <span>
-                <fa-icon [icon]="['fas', 'question-circle']" class="duvidas-icones"></fa-icon>
-                <h2>Ter um sistema de automação residencial é caro demais?</h2>
-              </span>
-
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quas quia quam enim eligendi
-                molestias, qui similique omnis libero voluptatem mollitia deleniti cum aperiam ipsum amet suscipit
-                soluta esse dicta.</p>
-            </div>
-          </div>
-        </div>
-        <div class="duvidas-link">
-          <p>Ainda está com alguma dúvida? Entre em contato com o atendimento via WhatsApp!</p>
-          <a href="" class="duvidas-link-a">Fale conosco <i class='fa fa-whatsapp'></i></a>
-
-        </div>
-      </div> -->
     </div>
     <section class="container-fale-conosco">
       <div class="wrapper">
@@ -426,9 +381,9 @@ Magnam sapiente, minima quis, delectus beatae qui, deleniti quos voluptas dolore
     </div>
     <div class="footer-position">
       <div class="finalizacao">
-        <img src="img/pexels-liza-summer-6347719.jpg" alt="" class="footer-img">
+        <img src="img/logo_claro.png" alt="" class="footer-img">
         <div class="texto">
-          <h1>Aut</h1>
+          <h1>Souhi</h1>
           <h2>Automação residencial</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iure nemo, aliquam, quibusdam reiciendis
             ducimus eum provident in id repellendus excepturi cum. Tempora dolorum, consequatur laudantium possimus hic
